@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script src="/static/js/readJSON.js"></script>
+
+  <script>
+    const queryString = window.location.search
+    const urlParams = new URLSearchParams(queryString)
+    const tableId = urlParams.get('id')
+
+    const fetchFrontData = async () => {
+      const response = await fetch('/data/frontmatter.json')
+      const data = await response.json()
+      return data.frontmatter
+    }
+
+    const updateFrontHeader = async () => {
+      const headerData = await fetchFrontData()
+      const currentHeader = headerData.filter(e => e['sequence'] == tableId)[0]
+
+      document.getElementById('table-title').innerHTML = currentHeader['title']
+      document.getElementById('table-description').innerHTML = currentHeader['description']
+      document.getElementById('column-2').innerHTML = currentHeader['column_2']
+    }
+
+    updateFrontHeader()
+  </script>
+
+</head>
+
+<body>
+<main>
+  <div class="header">
+    <h2 id="table-title"></h2>
+    <p id="table-description"></p>
+    <p id="table-length"></p>
+  </div>
+
+  <div id="large-table">
+    <div class="large-table-header">
+      <div>Publication</div>
+      <div id="column-2"></div>
+      <div>Organism</div>
+      <div>Primary approaches</div>
+      <div>Findings</div>
+    </div>
+  </div>
+
+</main>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "frontmatter": [
+    {
+      "sequence": 1,
+      "title": "Ig Isotype Biology & Response to Immunization",
+      "description": "This table contains studies related to activation induced cytidine deaminase (gene: <i>Aicda</i>; protein: AID), CSR, SHM, and IgM. It also includes relevant studies on Ig classes/subclasses in model systems. This does not aim to be a comprehensive review, rather it aims to be a collection of <i>indexes</i>.",
+      "column_2": "Immunogen"
+    },
+    {
+      "sequence": 2,
+      "title": "Influenza Biology & Viral Evolution",
+      "description": "This table contains studies related to influenza biology and its evolution.",
+      "column_2": "Subtype"
+    },
+    {
+      "sequence": 3,
+      "title": "Influenza Viral Immunology & Vaccinology",
+      "description": "",
+      "column_2": "Immunogen"
+    },
+    {
+      "sequence": 4,
+      "title": "B Cell & Germinal Center Immunology",
+      "description": "This table contains studies related to B cell biology especially in the context of antiviral response, germinal center formation & regulation, and B cell immunophenotyping.",
+      "column_2": "Immunogen"
+    },
+    {
+      "sequence": 5,
+      "title": "Adaptive Immune Receptor Repertoire (AIRR)",
+      "description": "",
+      "column_2": "AIRR"
+    }
+  ]
+}

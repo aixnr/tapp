@@ -1,0 +1,42 @@
+{
+  // For JSON files
+  // With VSCodeVim, in Insert mode, hit ctrl+spacebar to show the options
+  "Superscript": {
+    "scope": "json",
+    "prefix": "Superscript",
+    "body": "<sup>$0</sup>"
+  },
+  "Subscript": {
+    "scope": "json",
+    "prefix": "Subscript",
+    "body": "<sub>$0</sub>"
+  },
+  "SuperscriptNeg": {
+    "scope": "json",
+    "prefix": "SubscriptNeg",
+    "body": "<sup>–</sup>"
+  },
+  "Italicized": {
+    "scope": "json",
+    "prefix": "Italic",
+    "body": "<i>$0</i>"
+  },
+  "NewRecord": {
+    "scope": "json",
+    "prefix": "NewRecord",
+    "body": [
+      "{\"firstAuthor\": \"\",",
+      " \"seniorAuthor\": \"\",",
+      " \"year\": 2000,",
+      " \"journal\": \"\",",
+      " \"doi\": \"\",",
+      " \"pathogen\": \"\",",
+      " \"organism\": \"\",",
+      " \"primaryApproaches\": \"\",",
+      " \"title\": \"\",",
+      " \"findings\": \"\",",
+      " \"tags\": [\"\"]",
+      "}",
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "papers": [
+    {"firstAuthor": "Greiff et al.",
+     "seniorAuthor": "Reddy",
+     "year": 2017,
+     "journal": "Cell Rep.",
+     "doi": "10.1016/j.celrep.2017.04.054 ",
+     "pathogen": "BCR",
+     "organism": "",
+     "primaryApproaches": "",
+     "title": "Systems Analysis Reveals High Genetic and Antigen-Driven Predetermination of Antibody Repertoires throughout B Cell Development",
+     "findings": "",
+     "tags": [""]
+    }
+  ]
+}

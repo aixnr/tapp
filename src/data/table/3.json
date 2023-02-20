@@ -1,0 +1,28 @@
+{
+  "papers": [
+    {"firstAuthor": "Davis et al.",
+     "seniorAuthor": "Ahmed",
+     "year": 2020,
+     "journal": "Science",
+     "doi": "10.1126/science.aaz8432 ",
+     "pathogen": "Seasonal Influenza",
+     "organism": "Human",
+     "primaryApproaches": "",
+     "title": "Influenza vaccine–induced human bone marrow plasma cells decline within a year after vaccination",
+     "findings": "",
+     "tags": [""]
+    },
+    {"firstAuthor": "Ellebedy et al.",
+     "seniorAuthor": "Ahmed",
+     "year": 2016,
+     "journal": "Nat Immunol.",
+     "doi": "10.1038/ni.3533 ",
+     "pathogen": "Seasonal Influenza",
+     "organism": "Human",
+     "primaryApproaches": "Immunophenotyping & RNA-seq",
+     "title": "Defining antigen-specific plasmablast and memory B cell subsets in blood following viral infection and vaccination of humans",
+     "findings": "",
+     "tags": [""]
+    }
+  ]
+}

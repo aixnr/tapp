@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: GhostWhite;
+  color: DarkSlateGray;
+}
+
+main {
+  width: 1600px;
+  margin-top: 20px;
+  margin-bottom: 120px;
+  margin-inline: auto;
+}
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+
+sub {
+  top: 0.4em;
+}
+
+main .header {
+  margin-block: 40px;
+}
+main p {
+  line-height: 1.4em;
+}
+
+main #large-table {
+  margin-inline: 25px;
+}
+main #large-table .large-table-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 3fr 8fr;
+  gap: 12px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  background-color: DarkSlateGray;
+  color: GhostWhite;
+  padding: 4px;
+  border: 1px solid DarkSlateGray;
+  border-radius: 4px;
+}
+main #large-table .large-table-data {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 3fr 8fr;
+  gap: 12px;
+  padding: 4px;
+  border: 1px solid DarkSlateGray;
+  border-radius: 4px;
+  margin-block: 6px;
+}
+main #large-table .large-table-data .title :last-child {
+  color: DarkSlateBlue;
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 3px;
+}
+main #large-table .large-table-data .title :last-child a {
+  text-decoration: none;
+}
+main #large-table .large-table-data .title :last-child a:hover {
+  border-bottom: 1px solid DarkSlateBlue;
+}
+main #large-table .large-table-data .data-main {
+  padding: 6px;
+}
+main #large-table .large-table-data .data-main .title {
+  color: MidnightBlue;
+  background-color: AliceBlue;
+  border: 1px solid CornflowerBlue;
+  border-radius: 3px;
+  padding: 4px;
+  margin-bottom: 12px;
+}
+main #large-table .large-table-data .data-main .findings {
+  line-height: 1.8em;
+}
+main #large-table .large-table-data .data-main .tags {
+  margin-top: 12px;
+  color: DarkCyan;
+  font-size: 0.75em;
+  margin-bottom: 3px;
+}
+
+/*# sourceMappingURL=style.css.map */
